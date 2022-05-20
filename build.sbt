@@ -42,7 +42,7 @@ lazy val root = (project in file("."))
       "io.github.bonigarcia"    % "webdrivermanager"       % "5.3.2" % Test,
       "org.seleniumhq.selenium" % "selenium-chrome-driver" % "4.9.1" % Test,
       // Test framework dependencies
-      "org.scalatest" %% "scalatest"       % "3.1.2" % Test,
+      "org.scalatest"  %% "scalatest"      % "3.1.2"  % Test,
       "com.github.sbt" % "junit-interface" % "0.13.3" % Test
     ),
     (Compile / PB.targets) := Seq(
